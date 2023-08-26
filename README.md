@@ -13,6 +13,7 @@ pip3 install -r ./requirements.txt
 ```
 ##启动
 ```bash
+启动前需要吧m3e模型 放到m3e-base 目录下
 python main.py
 ```
 ## 目录说明
