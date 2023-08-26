@@ -86,11 +86,6 @@ class CounterLock:
     def __exit__(self, exc_type, exc_val, exc_tb):  # 实现 __exit__() 方法，用于在 with 语句的结束释放锁
         self.release()
 
-def allowCROS():
-    response.set_header('Access-Control-Allow-Origin', '*')
-    response.add_header('Access-Control-Allow-Methods', 'POST,OPTIONS')
-    response.add_header('Access-Control-Allow-Headers',
-                        'Origin, Accept, Content-Type, X-Requested-With, X-CSRF-Token')
 app = FastAPI(title="文档检索系统",
               description="文档检索系统 API",
               version="1.0.0",
