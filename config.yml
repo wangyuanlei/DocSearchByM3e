@@ -1,0 +1,12 @@
+embedding:
+  size: 20
+  #分块大小"
+  overlap: 0
+  #分块重叠长度
+  device: cuda
+  #embedding运行设备
+  count: 3
+  #最大抽取数量
+http:
+  port: 24450
+  #web服务端口

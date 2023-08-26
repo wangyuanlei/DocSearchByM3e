@@ -1,0 +1,1 @@
+给一个 ArgumentParser 添加程序参数信息，是通过调用 add_argument() 方法完成的。通常，这些调用指定 ArgumentParser 如何获取命令行字符串并将其转换为对象。这些信息在 parse_args() 调用时被存储在ArgumentParser实例化对象中，以供后续使用。add_argument() 方法定义如何解析命令行参数的呢？

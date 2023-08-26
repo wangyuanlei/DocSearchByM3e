@@ -1,0 +1,9 @@
+Flask==2.2.2
+sentence_transformers==2.2.2
+langchain
+chardet
+pdfplumber
+faiss-cpu
+fastapi
+uvicorn
+bottle
