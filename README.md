@@ -17,6 +17,7 @@ pip3 install -r ./requirements.txt
 python main.py
 ```
 ## 目录说明
+```bash
 m3e-base 模型
 main.py 启动文件
 config.yml 配置文件
@@ -28,7 +29,7 @@ zsk 知识库源文件
 model.py 功能函数库
 gen_data.py 本地文本转向量
 openapi.json 接口文件
-
+```
 ##使用说明
 ### 训练数据
 python gen_data.py -g user_11   # -g参数 为执行的库   不填写默认为group
